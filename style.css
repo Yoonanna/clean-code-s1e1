@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -108,7 +108,7 @@ label[for="add__title"] {
   margin: 0 0 20px;
 }
 
-input#add__title {
+#add__title {
   width: 318px;
 }
 
@@ -142,18 +142,18 @@ li>input[type="text"] {
   width: 226px;
 }
 
-button.button__delete img {
+.button__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.button__delete img:hover {
+.button__delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#complete__list label {
+#complete__list label {
   text-decoration: line-through;
   color: #888;
 }
@@ -163,11 +163,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.todo__list-edit input[type="text"] {
+ul .todo__list-edit input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.todo__list-edit label {
+ul .todo__list-edit label {
   display: none;
 }
