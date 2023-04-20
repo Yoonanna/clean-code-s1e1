@@ -28,6 +28,10 @@
 
 }
 
+.add h3 {
+  padding-top: 50px;
+}
+
 .main {
   display: block;
   width: 500px;
@@ -42,6 +46,7 @@
 
 .add__wrapper {
   display: flex;
+  align-items: center;
 }
 
 ul {

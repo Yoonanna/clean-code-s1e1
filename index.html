@@ -11,22 +11,22 @@
 </head>
 
 <body class="page">
-  <div class="info">
+  <article class="info">
     <img src="./eisenhower-matrix.jpg">
     <a class="info__link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?</a>
-  </div>
-  <div class="main">
-    <div class="add">
-      <p id="add__content">
-        <label for="add__title">Add Item</label>
+  </article>
+  <article class="main">
+    <section class="add">
+      <h3>Add Item</h3>
       <div class="add__wrapper">
+        <label for="add__title"></label>
         <input id="add__title" class="task" type="text">
         <button>Add</button>
       </div>
-      </p>
-    </div>
-    <div class="todo">
+
+    </section>
+    <section class="todo">
       <h3>Todo</h3>
       <ul id="todo__list">
         <li>
@@ -44,8 +44,8 @@
           <button class="button__delete"><img src="./remove.svg"></button>
         </li>
       </ul>
-    </div>
-    <div class="complete">
+    </section>
+    <section class="complete">
       <h3>Completed</h3>
       <ul id="complete__list">
         <li>
@@ -56,8 +56,8 @@
           <button class="button__delete"><img src="./remove.svg"></button>
         </li>
       </ul>
-    </div>
-  </div>
+    </section>
+  </article>
   <script src="app.js"></script>
 </body>
 
